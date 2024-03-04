@@ -5,19 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="69882d07-28c1-4150-9b98-a67c10cdd5f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/kyoungtae/blog/controller/BlogViewController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kyoungtae/blog/dto/ArticleListViewResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kyoungtae/blog/dto/ArticleViewResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/kyoungtae/blog/dto/UpdateArticleRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/article.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/articleList.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kyoungtae/blog/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kyoungtae/blog/controller/UserApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kyoungtae/blog/controller/UserViewController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kyoungtae/blog/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kyoungtae/blog/dto/AddUserRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kyoungtae/blog/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kyoungtae/blog/service/UserDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/kyoungtae/blog/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/article.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/newArticle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/signup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kyoungtae/blog/BlogApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kyoungtae/blog/BlogApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/kyoungtae/blog/controller/BlogApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kyoungtae/blog/controller/BlogApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kyoungtae/blog/controller/BlogViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kyoungtae/blog/controller/BlogViewController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/kyoungtae/blog/domain/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kyoungtae/blog/domain/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/kyoungtae/blog/service/BlogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kyoungtae/blog/service/BlogService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kyoungtae/blog/dto/AddArticleRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kyoungtae/blog/dto/AddArticleRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kyoungtae/blog/dto/ArticleListViewResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kyoungtae/blog/dto/ArticleListViewResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kyoungtae/blog/dto/ArticleResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kyoungtae/blog/dto/ArticleResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kyoungtae/blog/dto/ArticleViewResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kyoungtae/blog/dto/ArticleViewResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/kyoungtae/blog/dto/UpdateArticleRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/kyoungtae/blog/dto/UpdateArticleRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/articleList.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/articleList.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +63,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -84,7 +95,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">

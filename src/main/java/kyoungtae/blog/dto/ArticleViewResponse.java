@@ -15,10 +15,10 @@ public class ArticleViewResponse {
     private String content;
     private LocalDateTime createdAt;
 
-    public ArticleViewResponse(Article article){
-        this.id = getId();
-        this.title = getTitle();
-        this.content = getContent();
-        this.createdAt = getCreatedAt();
+    public ArticleViewResponse(Article article) {
+        this.id = article.getId();
+        this.title = article.getTitle();
+        this.content = article.getContent();
+        this.createdAt = article.getCreatedAt();
     }
 }
